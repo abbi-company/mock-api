@@ -1,0 +1,253 @@
+{
+    "auth/login": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU4ZTdiOTZlLTJlN2YtNDg1MC1iOTBlLWM0OTNiMjVjNGM2OSIsInVzZXJuYW1lIjoiOTc3MDg2MCIsImVtYWlsIjoiY2VzYXJkZXZAZ21haWwuY29tIiwibmFtZSI6IkNlc2FyIEEiLCJsYXN0X25hbWUiOiJEZXYiLCJwaG9uZSI6bnVsbCwic3RhdHVzIjp0cnVlLCJ1bml0X29wZXJhdGl2ZXNfaWQiOiI2OWYzMmE0NS1kYTVkLTExZWUtOTgwOC0wMjQyYWMxMGVlMGMiLCJyb2xlIjoiQWRtaW4iLCJwZXJtaXNzaW9ucyI6IndvcmtNYXRlcmlhbHMvd3JpdGUsd29ya0l0ZW1Qcm92aWRlcnMvd3JpdGUsd29ya01hdGVyaWFscy9yZWFkLHJvbGVzL3dyaXRlLHJvbGVzL3JlYWQsY291bnRyaWVzL3dyaXRlLGNvdW50cmllcy9yZWFkLHBlcm1pc3Npb25zL3dyaXRlLHBlcm1pc3Npb25zL3JlYWQsaW52ZW50b3JpZXMvd3JpdGUsY29zdENlbnRlcnMvd3JpdGUsc3RhdGVzL3dyaXRlLHN0YXRlcy9yZWFkLHVuaXRPcGVyYXRpdmVzL3dyaXRlLHVuaXRPcGVyYXRpdmVzL3JlYWQsY2l0aWVzL3dyaXRlcyxjaXRpZXMvcmVhZCxjb3N0Q2VudGVycy9yZWFkLHdvcmtJdGVtUHJvdmlkZXJzL3JlYWQsd29ya1R5cGVzL3dyaXRlLG9yZGVycy93cml0ZSxvcmRlcnMvcmVhZCx3b3JrSXRlbXMvd3JpdGUsdXNlcnMvcmVhZCxpbnZlbnRvcmllcy9yZWFkLHVzZXJzL3dyaXRlLHdvcmtJdGVtcy9yZWFkLHdvcmtUeXBlcy9yZWFkIiwiY3JlYXRlZF9hdCI6IjIwMjQtMDMtMTlUMTk6Mzk6MDRaIiwidXBkYXRlZF9hdCI6IjIwMjQtMDMtMTlUMTk6Mzk6MDRaIiwiaWF0IjoxNzIxOTI1OTM3LCJleHAiOjE3MjIwMTIzMzd9.QdwzSsog89BHAqsnPJ8q8rp5LQ_siC-HK9KNiD82GzY",
+        "token_type": "Bearer"
+    },
+    "countries": {
+        "countries": [
+            {
+                "id": "ca6b225c-182d-45fd-bfdf-535bb6663e7f",
+                "name": "Perú",
+                "code": "PE",
+                "created_at": "2024-02-20T01:27:10Z",
+                "updated_at": "2024-02-20T01:27:10Z"
+            },
+            {
+                "id": "d5bc6926-ab52-4b4e-9d2a-2c8d224dff78",
+                "name": "Colombia",
+                "code": "CO",
+                "created_at": "2024-02-20T01:27:10Z",
+                "updated_at": "2024-02-20T01:27:10Z"
+            }
+        ],
+        "records_count": 2,
+        "limit": 20,
+        "next_page": 2,
+        "previous_page": null
+    },
+    "roles": {
+        "roles": [
+            {
+                "id": "2c5990d1-de30-11ee-b416-0242ac10ee0c",
+                "name": "SuperAdmin",
+                "permissions": [],
+                "created_at": "2024-03-09T16:14:57Z",
+                "updated_at": "2024-03-09T16:14:57Z"
+            },
+            {
+                "id": "d163828d-de2f-11ee-b416-0242ac10ee0c",
+                "name": "Movil",
+                "permissions": [],
+                "created_at": "2024-03-09T16:12:25Z",
+                "updated_at": "2024-03-09T16:12:25Z"
+            },
+            {
+                "id": "be4fa9af-de2f-11ee-b416-0242ac10ee0c",
+                "name": "Gestor",
+                "permissions": [],
+                "created_at": "2024-03-09T16:11:53Z",
+                "updated_at": "2024-03-09T16:11:53Z"
+            },
+            {
+                "id": "d6dceba9-da5d-11ee-9808-0242ac10ee0c",
+                "name": "Admin",
+                "permissions": [
+                    {
+                        "id": "02e8793b-8eba-4868-b023-8c48068b0605",
+                        "name": "workMaterials/write",
+                        "created_at": "2024-03-24T01:14:36Z",
+                        "updated_at": "2024-03-24T01:14:36Z"
+                    },
+                    {
+                        "id": "0c2a3f63-8ccd-4ab7-bd19-0555bafe1df7",
+                        "name": "workItemProviders/write",
+                        "created_at": "2024-03-24T02:09:17Z",
+                        "updated_at": "2024-03-24T02:09:17Z"
+                    },
+                    {
+                        "id": "27bcd26a-e220-4917-8b85-4e85dee16021",
+                        "name": "workMaterials/read",
+                        "created_at": "2024-03-24T01:14:43Z",
+                        "updated_at": "2024-03-24T01:14:43Z"
+                    },
+                    {
+                        "id": "476a6a70-e711-11ee-9492-0242ac10ee0c",
+                        "name": "roles/write",
+                        "created_at": "2024-03-20T23:26:29Z",
+                        "updated_at": "2024-03-20T23:26:29Z"
+                    },
+                    {
+                        "id": "476a74a8-e711-11ee-9492-0242ac10ee0c",
+                        "name": "roles/read",
+                        "created_at": "2024-03-20T23:26:29Z",
+                        "updated_at": "2024-03-20T23:26:29Z"
+                    },
+                    {
+                        "id": "485c4598-e5f9-11ee-a84a-0242ac10ee0c",
+                        "name": "countries/write",
+                        "created_at": "2024-03-19T14:02:11Z",
+                        "updated_at": "2024-03-19T14:02:11Z"
+                    },
+                    {
+                        "id": "485c4d4d-e5f9-11ee-a84a-0242ac10ee0c",
+                        "name": "countries/read",
+                        "created_at": "2024-03-19T14:02:11Z",
+                        "updated_at": "2024-03-19T14:02:11Z"
+                    },
+                    {
+                        "id": "5395851d-e711-11ee-9492-0242ac10ee0c",
+                        "name": "permissions/write",
+                        "created_at": "2024-03-20T23:26:49Z",
+                        "updated_at": "2024-03-20T23:26:49Z"
+                    },
+                    {
+                        "id": "53958c5a-e711-11ee-9492-0242ac10ee0c",
+                        "name": "permissions/read",
+                        "created_at": "2024-03-20T23:26:49Z",
+                        "updated_at": "2024-03-20T23:26:49Z"
+                    },
+                    {
+                        "id": "56e67e47-fa96-4d3a-89dd-31d351a8b620",
+                        "name": "inventories/write",
+                        "created_at": "2024-03-24T01:14:56Z",
+                        "updated_at": "2024-03-24T01:14:56Z"
+                    },
+                    {
+                        "id": "5898b1b3-3f1d-4544-9ebe-edc155a5c463",
+                        "name": "costCenters/write",
+                        "created_at": "2024-04-02T23:00:09Z",
+                        "updated_at": "2024-04-02T23:00:09Z"
+                    },
+                    {
+                        "id": "58ae2c72-e5f9-11ee-a84a-0242ac10ee0c",
+                        "name": "states/write",
+                        "created_at": "2024-03-19T14:02:39Z",
+                        "updated_at": "2024-03-19T14:02:39Z"
+                    },
+                    {
+                        "id": "58ae36a0-e5f9-11ee-a84a-0242ac10ee0c",
+                        "name": "states/read",
+                        "created_at": "2024-03-19T14:02:39Z",
+                        "updated_at": "2024-03-19T14:02:39Z"
+                    },
+                    {
+                        "id": "618ad4f6-e711-11ee-9492-0242ac10ee0c",
+                        "name": "unitOperatives/write",
+                        "created_at": "2024-03-20T23:27:13Z",
+                        "updated_at": "2024-03-20T23:27:13Z"
+                    },
+                    {
+                        "id": "618adce0-e711-11ee-9492-0242ac10ee0c",
+                        "name": "unitOperatives/read",
+                        "created_at": "2024-03-20T23:27:13Z",
+                        "updated_at": "2024-03-20T23:27:13Z"
+                    },
+                    {
+                        "id": "66d2aeba-e5f9-11ee-a84a-0242ac10ee0c",
+                        "name": "cities/writes",
+                        "created_at": "2024-03-19T14:03:02Z",
+                        "updated_at": "2024-03-19T14:03:02Z"
+                    },
+                    {
+                        "id": "66d2b7cb-e5f9-11ee-a84a-0242ac10ee0c",
+                        "name": "cities/read",
+                        "created_at": "2024-03-19T14:03:02Z",
+                        "updated_at": "2024-03-19T14:03:02Z"
+                    },
+                    {
+                        "id": "6bcf4145-c94e-4bed-a14f-8d6f29022d7b",
+                        "name": "costCenters/read",
+                        "created_at": "2024-04-02T22:59:48Z",
+                        "updated_at": "2024-04-02T22:59:48Z"
+                    },
+                    {
+                        "id": "7830548c-74e7-42a0-a1b5-bc46f9dea47f",
+                        "name": "workItemProviders/read",
+                        "created_at": "2024-03-24T02:09:22Z",
+                        "updated_at": "2024-03-24T02:09:22Z"
+                    },
+                    {
+                        "id": "8c7d8bca-a77d-45b1-8b5c-b7e8e2df002f",
+                        "name": "workTypes/write",
+                        "created_at": "2024-03-23T23:40:25Z",
+                        "updated_at": "2024-03-23T23:40:25Z"
+                    },
+                    {
+                        "id": "a71540ad-e625-11ee-a84a-0242ac10ee0c",
+                        "name": "orders/write",
+                        "created_at": "2024-03-19T19:19:48Z",
+                        "updated_at": "2024-03-19T19:19:48Z"
+                    },
+                    {
+                        "id": "a7154950-e625-11ee-a84a-0242ac10ee0c",
+                        "name": "orders/read",
+                        "created_at": "2024-03-19T19:19:48Z",
+                        "updated_at": "2024-03-19T19:19:48Z"
+                    },
+                    {
+                        "id": "b4797f27-4ad0-44c2-8c64-7996ae441bd7",
+                        "name": "workItems/write",
+                        "created_at": "2024-03-24T01:14:16Z",
+                        "updated_at": "2024-03-24T01:14:16Z"
+                    },
+                    {
+                        "id": "b9bc3cbe-da5d-11ee-9808-0242ac10ee0c",
+                        "name": "users/read",
+                        "created_at": "2024-03-04T19:30:57Z",
+                        "updated_at": "2024-03-04T19:30:57Z"
+                    },
+                    {
+                        "id": "baaf8980-4631-4b53-ac40-4a74e4277026",
+                        "name": "inventories/read",
+                        "created_at": "2024-03-24T01:15:02Z",
+                        "updated_at": "2024-03-24T01:15:02Z"
+                    },
+                    {
+                        "id": "c0f1e1b2-da5d-11ee-9808-0242ac10ee0c",
+                        "name": "users/write",
+                        "created_at": "2024-03-04T19:31:09Z",
+                        "updated_at": "2024-03-04T19:31:09Z"
+                    },
+                    {
+                        "id": "df52681b-fd65-4a41-a3ec-73fe2ebae711",
+                        "name": "workItems/read",
+                        "created_at": "2024-03-24T01:14:22Z",
+                        "updated_at": "2024-03-24T01:14:22Z"
+                    },
+                    {
+                        "id": "f0daa784-64df-4f72-a4e9-21aaa9d2bb78",
+                        "name": "workTypes/read",
+                        "created_at": "2024-03-23T23:40:36Z",
+                        "updated_at": "2024-03-23T23:40:36Z"
+                    }
+                ],
+                "created_at": "2024-03-04T19:31:46Z",
+                "updated_at": "2024-03-04T19:31:46Z"
+            },
+            {
+                "id": "cf5c2cc3-da5d-11ee-9808-0242ac10ee0c",
+                "name": "Coordinador",
+                "permissions": [
+                    {
+                        "id": "b9bc3cbe-da5d-11ee-9808-0242ac10ee0c",
+                        "name": "users/read",
+                        "created_at": "2024-03-04T19:30:57Z",
+                        "updated_at": "2024-03-04T19:30:57Z"
+                    },
+                    {
+                        "id": "c0f1e1b2-da5d-11ee-9808-0242ac10ee0c",
+                        "name": "users/write",
+                        "created_at": "2024-03-04T19:31:09Z",
+                        "updated_at": "2024-03-04T19:31:09Z"
+                    }
+                ],
+                "created_at": "2024-03-04T19:31:34Z",
+                "updated_at": "2024-03-04T19:31:34Z"
+            }
+        ],
+        "records_count": 5,
+        "limit": 20,
+        "next_page": null,
+        "previous_page": null
+    }
+  }
